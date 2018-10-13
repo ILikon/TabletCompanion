@@ -1,15 +1,15 @@
 # TabletCompanion
-A Rainmeter skin to use on a tablet in order to control music, check statistics of your pc and to stream audio levels to a RGB led controller.
+A Rainmeter skin to use on a tablet in order to control music, check statistics of your pc and to stream audio levels to an RGB led controller.
 
  ## Previews
  <img src="Previews/Preview1.png?raw=true" width="290"><img src="Previews/Preview2.png?raw=true" width="290"><img src="Previews/Preview3.png?raw=true" width="290">
  
 ## Motivation
-Have you ever felt like you have some really cool Rainmeter theme setup on your desktop which you are really proud of, with all the gadgets to control music, check stats and a fancy music visualizer to top it all up, but... in the end you spend 99% of your time without even seeing your desktop because you are allways using your browser or any other app maximized...
+Have you ever felt like you have some really cool Rainmeter theme setup on your desktop which you are really proud of, with all the gadgets to control music, check stats and a fancy music visualizer to top it all up, buuuuut... in the end you spend 99% of your time without even seeing your desktop because you are allways using your browser or any other app maximized.
 
 At least I did, and that gave me the idea of repurposing an old tablet to use side by side with my computer, use it as a second screen and build a Rainmeter theme to fit into it.
 Furthermore, I recently built a circuit to control a pair of led strips through Wifi, and as you can imagine, it would be awesome to be able to control it with a touchable interface on my desk. Rainmeter, "running on the tablet", provides me the perfect interaction for this. But wait, there's more...
-Remember I said it is possible to control the led strips through Wifi? Also, I'm guessing you probably already know about the Rainmeter AudioLevel plugin, so... yheap, that's right! Let's make our own home disco, with Rainmeter and leds.
+Remember I said it is possible to control the led strips through Wifi? Also, I'm guessing you probably already know about the Rainmeter AudioLevel plugin, soooo... yheap, that's right! Let's make our own home disco, with Rainmeter and leds.
 
 ## Features
 
