@@ -74,7 +74,7 @@ https://github.com/ILikon/ESPLedController
  - Rainmeter skin I used to develop and debug the audio processing algorithms:
 https://github.com/ILikon/AudioReporter
  - [Spacedesk](https://www.spacedesk.net/multi-monitor-app-desktop-extension-screen-virtual-display) - desktop extension app (free for the moment)
- - Rainmeter forum thread about this skin:
+ - Rainmeter forum [thread](https://forum.rainmeter.net/viewtopic.php?f=27&t=29659) about this skin
  
  Video preview:
 
