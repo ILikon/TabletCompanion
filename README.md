@@ -8,8 +8,6 @@ At least I did, and that gave me the idea of repurposing an old tablet to use si
 Furthermore, I recently built a circuit to control a pair of led strips through Wifi, and as you can imagine, it would be awesome to be able to control it with a touchable interface on my desk. Rainmeter, "running on the tablet", provides me the perfect interaction for this. But wait, there's more...
 Remember I said it is possible to control the led strips through Wifi? Also, I'm guessing you probably already know about the Rainmeter AudioLevel plugin, so... yheap, that's right! Let's make our own home disco, with Rainmeter and leds.
 
-//This will take your gaming setup to the next step, you will no longer need to use some IR remote to switch the colors or between some boring lighting modes...
-
 ## Features
 
 ### Control and visualize music
@@ -30,8 +28,8 @@ Remember I said it is possible to control the led strips through Wifi? Also, I'm
  - Constant - Constant color and intensity
  - Fade - Fade from one color to the next
  - Pulse - Fade brightness from full to none and back
- - MusiVis (Rave) - Blink leds to music rythm, one strip reacts to bass and the other to treble
- - MusicBeat - Keep brigthness constant but switch color on bass beat
+ - Disco - Blink leds to music rythm, one strip reacts to bass and the other to treble
+ - Music - Keep brigthness constant but switch color on bass beat
  - Gaming - Dim brightness and blink when reacting to sound (explosions and gun firing), uses reds and yellows as colors
  
 ## Details and notes
@@ -43,7 +41,7 @@ The Gaming processing algorithm was developped for BF1, I have no idea how well 
 The skin is developed to fit my tablet resolution in fullscreen, which is 1280*800. You will probably need to make some adjustments to make it fit correctly at diferent resolutions.
 I use the spacedesk application (link bellow) to use my tablet as a second computer screen.
 For gaming, to improve your performance, you may disable the screen extension app, but do not unload Rainmeter or there will be no audio streaming.
-I tried to avoid as much as possible impacting the PC performance, at any time only the visible meters are beeing updated and the audio streming is only activated in the respective modes.
+I tried to avoid as much as possible impacting the PC performance, at any time only the visible meters are beeing updated and the audio streaming is only activated in the respective modes.
 This skin will automatically turn the leds off when exiting and turn back on when starting.
 You might need to edit the skin to match your audio application. Use right-click menu to switch between Web Audio (WebNowPlaying) and local (NowPlaying).
 
@@ -57,27 +55,19 @@ You might need to edit the skin to match your audio application. Use right-click
 
 
 ## Links
-Websocket plugin to communicate with the ESP8266: 
+ - Websocket plugin to communicate with the ESP8266: 
 https://github.com/ILikon/WebSocketPlugins
-
-ESP8266 code to control the leds:
+ - ESP8266 code to control the leds:
 https://github.com/ILikon/ESPLedController
-
-Rainmeter skin I used to develop and debug the audio processing algorithms:
+ - Rainmeter skin I used to develop and debug the audio processing algorithms:
 https://github.com/ILikon/AudioReporter
-
-Spacedesk, desktop extension app (free for the moment):
-https://www.spacedesk.net/multi-monitor-app-desktop-extension-screen-virtual-display
-
-Rainmeter forum thread about this skin:
-
-Video preview:
+ - [Spacedesk](https://www.spacedesk.net/multi-monitor-app-desktop-extension-screen-virtual-display) - desktop extension app (free for the moment)
+ - Rainmeter forum thread about this skin:
+ - Video preview:
 
 
 ## Acknowledgments
- Some of the code in this skin is inspired or possibly copied and addapted from:
+ - Some of the code in this skin is inspired or possibly copied and addapted from:
  https://github.com/MarcoPixel/monstercat-visualizer
- 
- The music bars where inspired by a great Rainmeter skin, Void 2.0 (links no longer available :( )
- 
- Thank you Sóbrio for giving me your tablet, otherwise there would be none of this :P
+ - The music bars where inspired by a great Rainmeter skin, Void 2.0 (links no longer available :( )
+ - Thank you Sóbrio for giving me your tablet, otherwise there would be none of this :D
